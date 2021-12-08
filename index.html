@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -14,7 +16,32 @@
         <input type="checkbox" class="toggleInput">
     </div>
 
-   
+    <!-- nav bar -->
+
+    <div class="navBar">
+        <ul>
+            <li >
+                <span class="icon"><i class="bi bi-house"></i></span>
+                <span class="text">Home</span>
+            </li>
+            <li onClick="this.classList.toggle('active')">
+                <span class="icon"><i class="bi bi-search"></i></span>
+                <span class="text">Search</span>
+            </li>
+            <li>
+                <span class="icon"><i class="bi bi-share"></i></span>
+                <span class="text">Share</span>
+            </li>
+            <li>
+                <span class="icon"><i class="bi bi-person"></i></span>
+                <span class="text">Profile</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- nav bar -->
+
+    
     <script type="text/javascript" src="./index.js"></script>
 </body>
 </html>
